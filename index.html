@@ -11,6 +11,9 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+              },
+              fontFamily: {
+                manrope: ["Manrope", 'sans-serif']
               }
             }
           }
@@ -25,7 +28,261 @@
 
     <title>tea house</title>
 </head>
-<body>
-    
+<body class="font-manrope">
+    <!-- main content -->
+    <main class="max-w-screen-5xl max-auto px-16 lg:px-28">
+        <!-- hrader  -->
+         <header class="flex pt-10 mb-20">
+            <!-- text content -->
+             <div>
+                <h1 class="text-5xl md:text-7xl lg:text-9xl">It's good <br>tea time at The <br>Tea House</h1>
+                <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-3 rounded-lg text-white font-bold">Explore More<i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
+             </div>
+             <!-- image content -->
+              <div class="relative">
+               <!-- image -->
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="">
+                    <!-- card -->
+                     <div class="absolute flex  items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
+                        <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+                        <div class="ml-2">
+                            <h3 class="lg:text-2xl font-bold">5.00</h3>
+                            <p class="text-gray-500">Trust Pilot Ratings</p>
+                        </div>
+                     </div>
+                </div>
+              </div>
+
+         </header>
+
+         <!-- featured product-->
+      <section class="py-8 lg:py24">
+        <div class="text-center mb-5">
+  
+          <h1 class="text-3xl md:text-2xl font-bold mb-2">our featured products</h1>
+          <p class="text-gray-500 max-w-xl mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. A consequatur commodi nisi odit dolore non molestias soluta harum impedit omnis.</p>
+
+        </div>
+        <!-- card -->
+         <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-6 text-center">
+          <!-- product -->
+           <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+            <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+            <div class="p-4">
+              <h2 class="font-bold text-xl">milk tea</h2>
+            <p class="text-gray-500">creamer could be replaced by fresh milk</p>
+            </div>
+           </div>
+
+           <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+            <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+            <div class="p-4">
+              <h2 class="font-bold text-xl">milk tea</h2>
+            <p class="text-gray-500">creamer could be replaced by fresh milk</p>
+            </div>
+           </div>
+
+           <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+            <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+            <div class="p-4">
+              <h2 class="font-bold text-xl">milk tea</h2>
+            <p class="text-gray-500">creamer could be replaced by fresh milk</p>
+            </div>
+           </div>
+
+           <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+            <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+            <div class="p-4">
+              <h2 class="font-bold text-xl">milk tea</h2>
+            <p class="text-gray-500">creamer could be replaced by fresh milk</p>
+            </div>
+           </div>
+
+           
+
+         </div>
+        </section>
+
+        <!-- tea pro -->
+        <section class="mb-24">
+         <div class="grid grid-cols-1 lg:grid-cols-2">
+              <!-- image section -->
+              <div class="grid grid-cols-2 grid-rows-3
+              gap-4 lg:w-5/6">
+              <div class="h-38 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
+              <div class="bg-orange-50 rounded-xl row-span-2">
+              <img class="mx-auto" src="images/fresh-1.png" alt="">
+            </div>
+              <div class="bg-orange-50 rounded-xl row-span-2">
+              <img class="mx-auto" src="images/fresh-2.png" alt="">
+            </div>
+            <div class="h-38 rounded-lg bg-gradient-to-r from-[#D9D9D9]
+            to-[#FFFFFF]"></div>
+            </div>
+            
+           <!-- text section -->
+            <div class="">
+              <h1 class="text-5xl font-bold mb-5">great tea , freshly presented </h1>
+              <p class="text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestias a nisi recusandae soluta, modi, fugit expedita dignissimos ipsam autem quo adipisci, in iusto officiis possimus tempore fuga nostrum sapiente?</p>
+              <br>
+              <h3 class="text-2xl font-bold  mb-5">unique test</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, dignissimos.</p>
+              <br>
+              <h1 class="text-2xl font-bold  mb-5">premium quality</h1>
+              <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, ipsa!</p>
+            </div>
+         </div>
+        </section>
+
+
+        <!-- reviews section -->
+        <section class="mb-24">
+          <div class=" bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16">
+            <!-- text section -->
+            <div class="flex justify-center items-center overflow-hidden">
+              <div class="w-5/6">
+                <h1 class="text-5xl font-bold mb-5 mt-10">Meet our super clients</h1>
+                <p class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam dicta velit suscipit? Eligendi, vitae, quos voluptatum doloribus blanditiis repellendus voluptates illum esse excepturi praesentium, dolore similique odio nam tempora vel.</p>
+                <button class="bg-white text-orange-700 px-3 py-2 rounded-lg">SHAW ALL</button>
+               </div>
+            </div>
+             <!-- review card section -->
+              <div class="relative py-24">
+                <!-- middle card -->
+                <div class="absolute z-10 top-44 md:top-60">
+                  <div class="  px-5 flex items-center h-56 w-full md:w-3\4  bg-white text-black rounded-lg ">
+                    <div class="absolute -top-5 -left-5 bg-white rounded-full ">
+                      <img class="p-1" src="images/client.png" alt="">
+                    </div>
+                    <div>
+                      <p class="text-gray-500">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                      <h1 class="font-bold">Ilham Yuda</h1>
+                      <small class="font-bold text-gray-500">Businessman</small>
+                    </div>
+
+                   </div>
+                 </div>
+                  <!-- top card  -->
+                   <div class="opacity-40  px-5 relative flex items-center h-56 w-full md:w-3\4  bg-white text-black rounded-lg left-8 md:left-12">
+                    <div class="absolute -top-5 -left-5 bg-white rounded-full ">
+                      <img class="p-1" src="images/client.png" alt="">
+                    </div>
+                    <div>
+                      <p class="text-gray-500">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                      <h1 class="font-bold">Ilham Yuda</h1>
+                      <small class="font-bold text-gray-500">Businessman</small>
+                    </div>
+
+                   </div>
+                   
+                   <!-- bottom card -->
+                   <div class="opacity-40 top-10 px-5  relative flex items-center h-56 w-full left-8 md:left-12 md:w-3\4  bg-white text-black rounded-lg">
+                    <div class="absolute -top-5 -left-5 bg-white rounded-full ">
+                      <img class="p-1" src="images/client.png" alt="">
+                    </div>
+                    <div>
+                      <p class="text-gray-500">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                      <h1 class="font-bold">Ilham Yuda</h1>
+                      <small class="font-bold text-gray-500">Businessman</small>
+                    </div>
+
+                   </div>
+              </div>
+
+          </div>
+
+        </section>
+
+        <!-- news section homework -->
+  </main>
+  <!-- footer section  -->
+   <footer class="bg-orange-100  text-gray-700 py-10 px-4 md:px-17">
+     <div class="w-9/12 mx-auto">
+      <!-- logo  -->
+       <div class="mb-8 flex justify-between">
+        <img class="mb-8" src="images/cup.png" alt="">
+        <div class="flex items-center gap-2">
+          <h4>Ready to get started</h4>
+          <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-2 py-3 rounded-lg text-white font-bold">Get started</button>
+        </div>
+       </div>
+       <!-- links -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- fast column -->
+           <div>
+            <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+            <ul>
+              <li>
+                <a class="hover:text-orange-600" href="#">Home</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">About Us</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+            
+           </div>
+           <!-- second  -->
+           <div>
+            <h3 class="font-semibold text-lg mb-3">Our Service</h3>
+            <ul>
+              <li>
+                <a class="hover:text-orange-600" href="#">Life Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">Health Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">Car Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">House Insurance</a>
+              </li>
+            </ul>
+            
+           </div>
+           <!-- third column -->
+           <div>
+            <h3 class="font-semibold text-lg mb-3">Help</h3>
+            <ul>
+              <li>
+                <a class="hover:text-orange-600" href="#">FAQs</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-600" href="#">Contact Us</a>
+              </li>
+            </ul>
+            
+           </div>
+           <!-- fourth column -->
+            <div>
+              <h3 class="font-semibold text-lg mb-3">Subscribe to our news letter</h3>
+              <div class="flex flex-col space-y-2">
+                <div>
+                  <input placeholder="Email Address" type="text" class="bg-transparent border-b-2 border-black w-4\6">
+                  <i class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 inline-flex rounded-full justify-center items-center text-white"></i>
+                  <div class="flex justify-between  justify-center w-2/5 mb-2 mt-8">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+     </div>
+       <!-- foo -->
+     <div class="text-center pt-4 mt-4">
+              <p>© 2027 UIDesign.to - All rights reserved.</p>
+             </div>
+   </footer>
 </body>
 </html>
